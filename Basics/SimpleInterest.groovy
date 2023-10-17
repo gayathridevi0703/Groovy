@@ -1,13 +1,13 @@
 class SimpleInterest{
     static void main(String[] args){
   //principal amount
-    int p=100000; 
+    int principal=100000; 
   //no of months   
-    int n=10;
+    int no_months=10;
   //rate of interest  
-    int r=5,si;
+    int rateofinterest=5;
   // calculating simple interest 
-    si=(p*n*r)/100;
+    int simpleinterest=(p*n*r)/100;
     println("Simple Interest is "+si);
 
 
