@@ -3,43 +3,28 @@ class Palindrome {
  
 
     public static void main(String[] args) {
-
-    
-
+         
+        //original string 
         String Str = "WOW";
 
- 
-
-        String rev = "";
+        //temp variable
+        String temp = "";
 
         for(int i = Str.size() - 1; i >= 0; i --) {
 
- 
-
-            rev= rev + Str.charAt(i);
-
- 
+            temp= temp + Str.charAt(i);
 
         }
+     //if else statement
+        if (Str.equalsIgnoreCase(temp)) {
 
 
-        //to check the condition
-
-        if (Str.equalsIgnoreCase(rev)) {
-
-            //Print the statement
-
-            println("String is Palindrome..");
-
- 
+            println(" is Palindrome..");
 
         } else {
 
-            //Print the statement
 
-            println(" string is NOT a Palindrome..");
-
- 
+            println(" NOT a Palindrome..");
 
         }
 
