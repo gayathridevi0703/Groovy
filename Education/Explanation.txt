@@ -11,4 +11,6 @@ A controller is responsible for handling incoming web requests and performing ac
 
 4.connection
 one to many connection
-static hasMany=[]
+
+
+static hasMany=[] 
