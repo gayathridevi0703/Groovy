@@ -1,0 +1,16 @@
+1.first creates domain class named teacher
+*using command grails create-domain-class com.baeldung.Teacher
+*so com.baeldung is customized package name and Teacher is our domain class nmae it's Always need to follow naming convention condition
+*domain class is representing columns of database
+2.controller:
+*using command grails create-controller  com.baeldung.Teacher
+A controller is responsible for handling incoming web requests and performing actions such as redirects, rendering views and so on.
+
+3.service:
+*using command  create-controller  com.baeldung.Teacher
+
+4.connection
+one to many connection
+
+
+static hasMany=[] 
