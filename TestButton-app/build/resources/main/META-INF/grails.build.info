@@ -1,0 +1,6 @@
+#Mon, 30 Oct 2023 16:57:25 +0530
+
+info.app.version=0.1
+info.app.name=TestButton-app
+grails.env=development
+info.app.grailsVersion=3.2.6
